@@ -101,7 +101,7 @@ h1 {
     font-size: 22px;
 }
 
-.search p {
+.hero-subtitle {
     margin-top: 0;
     margin-bottom: 35px;
 }
@@ -130,7 +130,7 @@ form {
     font-weight: 700;
 }
 
-.search button {    
+.search form button {    
     border-radius: 0 15px 15px 0;
     color: white;
     font-size: 18px;
@@ -140,16 +140,65 @@ form {
     border: 0;
 } 
 
-.search i {
+
+.search form i {
     color: #000;
     border-radius: 15px 0 0 15px;
     padding: 14px 18px 15px;
     background-color: var(--main-bg-color);
 }
 
-.search button:hover {
+.search form button:hover {
     opacity: 0.8;
 }
+
+.filtres {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    margin-bottom: 35px;
+    height: 50px;
+}
+
+.filtres button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0px 19px;
+    height: 50px;
+    background-color: white;
+    border-radius: 35px;
+    border: 2px solid #D9D9D9;
+}
+
+.filtres button:hover {
+    background-color: #DEEBFF;
+    opacity: 0.8;
+;
+}
+
+.info-logements {
+    display: flex;
+    align-items: center;
+    gap: 9.5px;
+    margin-top: 0;
+    margin-bottom: 37.5px;
+}
+
+.info-logements i {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    width: 24px; /* taille du cercle */ 
+    height: 24px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

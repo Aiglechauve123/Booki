@@ -349,15 +349,9 @@ form {
 }
 
 .activites-cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-}
-
-.activites-cards a { 
-    flex: 1 1 calc(25% - 30px); 
-    display: block; 
 }
 
 .activites-cards img {
@@ -369,6 +363,9 @@ form {
 }
 
 .card-activite {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));

@@ -157,6 +157,7 @@ h1 {
     color: var(--white);
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .search form button:hover {
@@ -187,6 +188,7 @@ h1 {
     background-color: var(--white);
     font-size: 17px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .filtres button:hover {
